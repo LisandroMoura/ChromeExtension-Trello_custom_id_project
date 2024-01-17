@@ -1,0 +1,16 @@
+{
+    "name":"FRASETECA - Sequencial de Projetos no Trello",
+    "version":"1.0",
+    "description":"Aplicar um novo projeto no trello automaticamente (sequencialmente) para o projeto do Fraseteca",
+    "browser_action":{
+        "default_popup":"index.html"
+    },
+    "content_scripts":[{
+        "matches": ["*://*.trello.com/b/bH2zOmbM/ti-fraseteca/*"],
+        "js": ["content.js"]
+    }],
+    "permissions": [
+        "storage"
+    ],
+    "manifest_version":2
+}
