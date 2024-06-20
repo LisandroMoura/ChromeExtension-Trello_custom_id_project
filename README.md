@@ -2,8 +2,8 @@
 ---
 
 ## ◉ Projeto:
-Simple ChromeExtension to Trello
-Criação das Extensões para o Chrome de integração com o nosso sistema de Controle de projetos
+Simple Chrome Extension for Trello
+Creation of Chrome Extensions for integration with our Project Management System
 
 ## ◉ Responsável técnico:
 Lisandro Moura \<FullStack\/>:
